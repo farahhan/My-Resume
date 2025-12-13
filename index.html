@@ -1,0 +1,72 @@
+<html>
+<head> 
+   <link rel="stylesheet" href="style.css">
+     <title>Home Page</title>
+</head>
+<body onload="startTime()" id="home">
+
+<marquee  class="home-marquee">
+<object width="250" height="37" data="welcomee.gif"> </object> <br>
+</marquee>
+
+	<header>
+	  <h1> Farah's Story </h1> 
+</header>
+
+<div class="main-container">
+    <nav>
+<center>
+<br>
+	<a href="index.html" target="_self" class="home-link"><img src="home.png" width="50" height="40"></a><br>
+	<a href ="biodata.html" target="_self"  class="home-link" ><img src="biodata.jpg" width="100" height="40"></a><br>
+	<a href="edu.html" target="_self"  class="home-link"><img src="education.png" width="100" height="40"></a><br>
+	<a href="experience.html" target="_self"  class="home-link"><img src="experience.png" width="100" height="40"></a><br>
+	<a href="family.html" target="_self"  class="home-link"><img src="familyy.png" width="100" height="40"></a><br>
+	<a href="gallery.html" target="_self"  class="home-link"><img src="gallery.jpg" width="100" height="40"></a> <br><br> 
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+</center>
+    </nav>
+<section align="center">
+
+<br><br><br><br>
+<p> Hello, Welcome to <i>Farah's website! </i>&#127800;&#127799;</p>
+<p> I'm <sup> Farah </sup> Hanim <sub> Binti </sub> Ahmad  <sup> Nasir </sup></p>  
+<p><i> Diploma in Information Management | Resume </i> </p>
+<p> Let’s dive into my very first website &#127872;</p>
+<p> Here’s a glimpse of my background and the moments that shape who I am.</p>
+<p>──────── &#127892; &#127892; &#127892; ──────── </p>
+
+<a href="https://www.instagram.com/farhhnim_?igsh=cGtpNHA5ZGVsdmU4&utm_source=qr" target="_blank"><img src="ig.jpg"  class="social-icon"></a>
+<a href="https://www.facebook.com/share/1CgNN89aSo/?mibextid=wwXIfr" target="_blank"><img src="fb.jpg" width="50" height="43"></a><br>
+
+<audio autoplay><br>
+   <source src="blue.mp3" type="audio/mpeg"></audio>
+
+</section>
+</div>
+
+<footer>
+Copright &copy; Farhhnim_
+ </footer>
+
+</body>	
+</html>
