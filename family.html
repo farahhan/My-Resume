@@ -1,0 +1,140 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title> My Family</title></head>
+
+<body onload="startTime()" id="family">
+	<header>
+	  <h1> Farah's Story</h1> </header>
+<div class="main-container">
+    <nav>
+<center>
+<br>
+	<a href="index.html" target="_self" class="home-link"><img src="home.png" width="50" height="40"></a><br>
+	<a href ="biodata.html" target="_self"  class="home-link" ><img src="biodata.jpg" width="100" height="40"></a><br>
+	<a href="edu.html" target="_self"  class="home-link"><img src="education.png" width="100" height="40"></a><br>
+	<a href="experience.html" target="_self"  class="home-link"><img src="experience.png" width="100" height="40"></a><br>
+	<a href="family.html" target="_self"  class="home-link"><img src="familyy.png" width="100" height="40"></a><br>
+	<a href="gallery.html" target="_self"  class="home-link"><img src="gallery.jpg" width="100" height="40"></a> <br><br> 
+<div id="txt"></div>
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</center>
+    </nav>
+
+<section align="justify">
+
+<marquee class="family-marquee">
+    <img src="fami.jpg" width="200" height="130">
+      <img src="family1.jpg" width="200" height="130">
+    <img src="fam.jpg" width="200" height="130">
+  <img src="family3.jpg" width="200" height="130">
+     <img src="pg.jpg" width="200" height="130">
+  </marquee><br>
+
+
+   <h1 align="center" style="color:DarkSlateGrey"> A Glimpse of My Family </h1>
+
+       <p>I am the youngest of four siblings, consisting of one brother and three sisters. My mother is a dedicated teacher, while my father passed 
+away 11 years ago. My eldest brother is married and blessed with two children, Zarif and Arash, who bring joy to our family. My first sister
+is also married and building her own family life, while my second sister is still single and serves as a teacher, following in our mother’s
+footsteps. As the youngest child, I am grateful to have been raised in a home filled with love, support, and mutual care. These values have
+shaped me into a compassionate, independent, and family-oriented person. Growing up in a house full of different personalities has taught me 
+to understand, respect, and appreciate others, and although my family is not perfect, our laughter, memories, and small moments together are 
+what make our bond truly special. </p> 
+
+    <center> 
+<p> <b>Below are a few details about my family and our photo:</b></p>
+
+<p align="center" >Let's see my family portrait: <a href="#FP"> Jump to family portrait<a/></p>
+
+     <table align="center">
+    <tr>
+     <td> <img src="ayah.jpg" class="family-img"> </td>
+    <td align="justify"> <b> My Father &#129332; <br> <br> Name:</b> Ahmad Nasir Bin Othman <br> 
+      <b>  Date of Birth:</b> 10<sup>th</sup> September 1964  <br> <b> Birth Order:</b>Third child <br> 
+     <strong> Passed away on:</strong> 15<sup>th</sup> July 2014</td>
+  
+     <td ><img src="makk.jpg" class="family-img"> </td>
+    <td align="justify" >  <b> My Mother &#128120; <br><br> Name: </b> Mazidah Binti Md Noor <br> 
+     <b> Date of Birth:</b> 04<sup>th</sup> May 1969 <br> <b> Birth Order:</b>  Twelfth child <br> <strong> Occupation: </strong> Teacher </td>
+    
+
+   <tr>
+      <td> <img src="abang.jpg" class="family-img"></td>
+   <td align="justify" > <b> My Brother  &#128104; <br><br>   Name:</b> Ahmad Ashraf Bin Ahmad Nasir <br> 
+    <b> Date of Birth:</b> 3<sup>rd</sup> July 1963  <br> <b>   Birth Order:</b>First child <br> 
+       <strong>  Occupation:</strong>Self-employed</td>
+    
+      <td ><img src="kakzimah.jpg" class="family-img"></td>
+    <td align="justify">  <b> My Sister-in-law &#128105; <br><br>  Name: </b> Nor Azimah Binti Yassin <br> 
+      <b> Date of Birth:</b> 20<sup>th</sup> August 1995 <br> <b> Birth Order:</b>  youngest child <br> <strong> Occupation: </strong> Housewife</td>
+
+
+    <tr>
+       <td> <img src="kakuna.jpg" class="family-img"></td>
+    <td align="justify" > <b> My Sister &#128105; <br> <br>  Name:</b> Farah Husna Binti Ahmad Nasir<br> 
+    <b> Date of Birth:</b> 06<sup>th</sup> September 1994  <br> <b>   Birth Order:</b>Second child <br> 
+      <strong>   Occupation:</strong> Executive Information Technology</th>
+ 
+     <td ><img src="lilo.jpg" class="family-img"></td>
+    <td align="justify" >  <b> My Brother-in-law &#128104;<br> <br> Name: </b> Muhammad Aidil Bin Amis <br> 
+<b>  Date of Birth:</b> 15<sup>th</sup> March 1994 <br> <b> Birth Order:</b>  Second child <br> <strong>
+Occupation: </strong>Perodua Sales advisor</td>
+
+   <tr>
+      <td> <img src="aniss.jpg" class="family-img"></td>
+    <td align="justify" > <b> My Sister  &#128105; <br> <br>  Name:</b> Farah Hanis Binti Ahmad Nasir<br> 
+      <b> Date of Birth:</b> 29<sup>th</sup> October 1999  <br> <b>  Birth Order:</b>Third child <br> 
+     <strong>Occupation:</strong> Teacher</td>
+ 
+    <td ><img src="anim4.0.jpg" class="family-img"></td>
+      <td align="justify" > <b> Myself &#128103; <br><br> Name: </b> Farah Hanim Binti Ahmad Nasir <br> 
+    <b> Date of Birth:</b> 10<sup>th</sup> October 2005 <br> <b> Birth Order:</b>  Youngest child <br> <strong> Status: </strong>Student</td>
+   
+
+  <tr>
+   <td> <img src="zarif.jpg" class="family-img"></td>
+     <td align="justify" > <b> My Nephew &#128102;  <br><br>   Name:</b> Ahmad Zariff Aydan  Bin Ahmad Ashraf <br> 
+   <b> Date of Birth:</b> 21<sup>st</sup> May 2019  <br> <b>   Birth Order:</b>First child <br> 
+     <strong> Age:</strong> 6 Years Old</td>
+
+   <td><img src="arashhh.jpg" class="family-img"></td>
+    <td align="justify"> <b> My Nephew &#128102;<br> <br>  Name: </b> Muhammad Aarash Zafriel<br><center> Bin Ahmad Ashraf </center>
+  <b> Date of Birth:</b> 01<sup>st</sup> October 2025 <br> <b> Birth Order:</b>  Second child <br> <strong> Age: </strong> 2 months</td>
+  </tr>
+  </table>
+
+     <h3 id="FP"><u>My Family Portrait&#128149;</u></h3>
+    <center>
+      <img src="family.jpg" class="portrait-img">
+    <img src="fam.jpg" class="portrait-img">
+      <img src="fami.jpg" class="portrait-img">
+   <br><br>
+    </center>
+
+
+</section>
+</div>
+
+ <footer>
+Copright &copy; Farhhnim_
+ </footer>
+
+</body>
+</html>
