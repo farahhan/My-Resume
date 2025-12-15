@@ -1,0 +1,147 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title> Biodata</title>
+</head>
+<body onload="startTime()" id="biodata">	
+	<header>
+	  <h1> Farah's Story </h1> </header>
+
+<div class="main-container">
+    <nav>
+
+<br>
+	<a href="index.html" target="_self" class="home-link"><img src="home.png" width="50" height="40"></a><br>
+	<a href ="biodata.html" target="_self"  class="home-link" ><img src="biodata.jpg" width="100" height="40"></a><br>
+	<a href="edu.html" target="_self"  class="home-link"><img src="education.png" width="100" height="40"></a><br>
+	<a href="experience.html" target="_self"  class="home-link"><img src="experience.png" width="100" height="40"></a><br>
+	<a href="family.html" target="_self"  class="home-link"><img src="familyy.png" width="100" height="40"></a><br>
+	<a href="gallery.html" target="_self"  class="home-link"><img src="gallery.jpg" width="100" height="40"></a> <br><br><br> 
+
+<p id="txt"></p>
+
+<script>
+function startTime() {
+    const today = new Date();
+
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const dayName = days[today.getDay()];
+
+
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+
+    document.getElementById('txt').innerHTML = dayName + ", " + h + ":" + m + ":" + s;
+
+    setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+startTime();
+</script>
+
+
+    </nav>
+
+<section >
+  <h1 class="h1-title">About Me</h1>
+<br> 
+
+<div class="bio-wrap">
+  <img src="anim9.0.jpg" alt="Anim" class="bio-img" alt="Fun Facts" usemap="#funfacts" >
+<map name="funfacts"> 
+<area shape="default" alt="Fun Facts" href="imagemaps.html"> 
+</map>
+
+ <p style="text-align: justify;"> My name is Farah Hanim Binti Ahmad Nasir, and I’m 20 years old. I was born on 10<sup>th</sup> October 2005 and I live in Mersing, Johor, 
+a lovely place that’s famous for its beautiful and relaxing beaches. I’m currently studying for a Diploma in Information Management at UiTM Segamat.
+So far, the experience has been both interesting and meaningful, especially when I have friends who are always ready to help. I love watching Aisyah Habshee and Muhsin
+Yusni on YouTube during my leisure time. However, I would describe myself as an introvert who enjoys learning new things at my own pace and exploring activities that make me feel happy and calm. I love collecting experiences  
+that help me grow and understand myself better. I also hope to achieve my academic goals, particularly earning a place on the Dean’s List in this final  semester,
+so that I can graduate with first-class honors, and I hope to achieve ANC in my future degree through consistent hard work.&#x1F4DD;&#129330; <br> <br>
+<u>Click on my photo to discover my fun facts! </u> </p>
+</div> <br> <br>
+
+<hr> <hr> 
+<p> <b>Youtube Channel</b> </p>
+<p> This is my favourite youtube channel: <a href="https://www.youtube.com/@AisyahHabshee"  target="_blank">Aisyah Habshee </a></p>
+
+  <p><b> My Skills </b></p>
+      <p> <strong><i> Technical:</i> </strong> Word Processing | Canva | Information Retrieval | Record Management | HTML  </p>
+    <p> <strong><i> Soft: </i></strong> Teamwork | Time Management | Problem Solver | Adaptable | Handling Pressure | Creativity </p>
+
+<hr><hr>
+ <table align="center">
+   <tr>
+	<td>
+	  <ul style="list-style-type:circle"><font color="black">  
+	<li> My <i> Ambitions </i>: </li> </ul>
+	  <font color="MidnightBlue"> 
+		&#129493; Human Resource Officer <br>
+		&#129493; Culinary Expert <br>
+		&#129493; Teacher <br>
+		&#129493; Businesswoman  </td><br>
+ 	<td>
+    	 <ul style="list-style-type:circle">
+		<font color="black"><li> Languages</i>: </li> </ul>
+	<ul style="list-style-type:square" class="language-list">
+		<li>Malay</li>
+		<li>English</li>
+		<li>Arabic</li><br>
+		
+</ul> </td> <br>
+	<td >
+	<ul style="list-style-type:circle">
+		<font color="black"> <li>My <i>Favorite Food <br>& Drinks </i>:</li> </ul>
+	<ol  type="a" class="food-list">
+		<li> Chicken Tom Yum</li>
+		<li> French Fries</li>
+		<li> Jasmine Milk Tea</li>
+		<li> Matcha Latte</li>
+	</ol>
+	</td>
+	</tr>
+</table>
+
+<table  class="hobby-table">
+    <tr>
+        <th class="hobby-header" colspan="4" >Hobbies</th>
+    </tr>
+
+    <tr>
+        <td class="hobby-item">1) Playing <br> Badminton</td>
+        <td class="hobby-item">2) Build A <br> Flower LEGO</td>
+        <td class="hobby-item">3) Brisk <br> Walking</td>
+        <td class="hobby-item">4) Playing <br> with cats</td>
+    </tr>
+
+    <tr>
+        <th class="hobby-img"><img src="badminton.jpg" class="hobby-img"></th>
+        <td class="hobby-img"><img src="lego.jpg" class="hobby-img"></td>
+        <td class="hobby-img"><img src="briskwalk.jpg" class="hobby-img"></td>
+        <td class="hobby-img"><img src="cat.jpg" class="hobby-img"></td>
+    </tr>
+
+    <tr>
+        <td class="hobby-desc">Badminton <br> tournament with <br> Dayana</td>
+        <td class="hobby-desc">This is my first <br> flower lego set</td>
+        <td class="hobby-desc">Brisk walking in <br> the evening with <br> Nana and Irdina</td>
+        <td class="hobby-desc">Found a street cat <br> at the museum</td>
+    </tr>
+</table>
+
+</section>
+</div>
+
+<footer>
+Copyright &copy; Farhhnim_ </footer>
+
+</body>	
+</html>
